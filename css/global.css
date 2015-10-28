@@ -1,0 +1,99 @@
+html, body {
+  width:100%;
+  height:100%;
+  paddig:0;
+  margin:0;
+  background-color:#F7F7F7;
+  font-family: Latha, Arial, serif;
+}
+
+
+
+#menu {
+  width:100%;
+  height:100px;
+  clear:both;
+
+  background: -webkit-linear-gradient(rgba(209,209,209,0), rgba(235,235,235,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(209,209,209,0), rgba(235,235,235,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(209,209,209,0), rgba(235,235,235,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(209,209,209,0), rgba(235,235,235,1)); /* Standard syntax */
+  border-bottom:1px solid #B8B8B8;
+}
+
+.logo, .logo a {
+  float:left;
+  margin-left:25px;
+  height:60px;
+  width:600px;
+  padding-top:9px;
+  font-size:35pt;
+  color:#004157;
+  text-decoration:none;
+}
+
+.search {
+  float:right;
+  margin-right:21.5%;
+  height:60px;
+  width:230px;
+  padding-top:25px;
+  font-size:35pt;
+  color:#004157;
+  text-decoration:none;
+}
+
+.search input {
+  border:1px solid #999;
+  padding:10px;
+}
+
+#slider {
+  width: 1005px;
+  height: 300px;
+  background-color:#EDEDED;
+  border:1px solid #B8B8B8;
+  border-radius: 5px;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:5px;
+  padding-top:5px;
+  padding-right:5px;
+  text-align:center;
+}
+#slider .img {
+  margin-bottom:18px;
+  border: 1px solid #B8B8B8;
+}
+
+#container {
+  width:1017px;
+  height:auto;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.content {
+  width: 1005px;
+  padding:5px 5px 25px 5px;
+  height:auto;
+  background-color:#EDEDED;
+  border:1px solid #B8B8B8;
+  border-radius: 5px;
+  margin-top:20px;
+}
+
+.content .title {
+  font-size:24pt;
+  width:980px;
+  border-bottom:1px solid #333;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.content .info {
+  float:right;
+  margin-right:10px;
+}
