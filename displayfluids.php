@@ -14,7 +14,14 @@
   //print_r($fluids);
   foreach($fluids as $fluid)
   {
-    echo "<tr class=\"fluid\"><td>".$fluid['name']."</td>";
+    if($fluid['name'] == "uu-matter")
+    {
+    echo "<tr class=\"fluid\"><td>UU-Matter</td>";
+    }
+    else
+    {
+       echo "<tr class=\"fluid\"><td>".ucfirst($fluid['name'])."</td>";
+    }
     echo "<td>".$fluid['amount']."</td>";
     echo "<td>".$fluid['capacity']."</td>";
     if(is_numeric($fluid['amount'])&&is_numeric($fluid['capacity']))

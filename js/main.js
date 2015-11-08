@@ -12,7 +12,7 @@ reload();
 		{
 			var search = $(this).val();
 				$(".fluid").each(function(index){
-					if($(this).text().match(search))
+					if($(this).text().match(new RegExp(search,"i")))
 					{
 						$(this).show();
 					}
